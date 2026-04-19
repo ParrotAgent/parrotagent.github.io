@@ -1,11 +1,5 @@
 # Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems
 
-**Jiacheng Liu¹ · Xiaohan Zhao¹ · Xinyi Shang^{1,2} · Zhiqiang Shen^{1,†}**
-
-¹ VILA Lab, Mohamed bin Zayed University of Artificial Intelligence
-² University College London
-† Corresponding author: Zhiqiang.Shen@mbzuai.ac.ae
-
 GitHub: https://github.com/VILA-Lab/Dive-into-Claude-Code
 
 ---
