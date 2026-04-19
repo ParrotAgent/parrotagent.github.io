@@ -289,7 +289,7 @@ Production coding agents adopt different safety architectures: layered policy en
 
 When Claude decides to execute a tool (for example, running `npm test` via BashTool to reproduce the auth test failure), the request enters the permission pipeline. Every tool invocation passes through the permission system, and the default behavior is to deny or ask rather than allow silently. This default is motivated by a documented behavioral pattern: Anthropic's auto-mode analysis found that users approve approximately 93% of permission prompts, indicating that approval fatigue renders interactive confirmation behaviorally unreliable as a sole safety mechanism. Because users habitually approve without careful review, the system must maintain safety independently of human vigilance. This motivates the architectural commitment to deny-first evaluation, blanket-deny pre-filtering, and sandboxing as independent layers that operate regardless of user attentiveness.
 
-![Permission Gate Layers](permission_gate_layers.svg)
+![permission decision flow](permission_decision_flow.svg)
 
 **Permission gate design principles:**
 
